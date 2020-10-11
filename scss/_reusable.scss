@@ -1,0 +1,70 @@
+/****************************Dropdown *********************************/
+
+.button-dropdown {
+	position: relative;
+	.dropdown-menu {
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		min-width: 120px;
+		background: $white;
+		padding: 15px;
+		display: none;
+		box-shadow: 0 3px 6px rgba(51, 85, 120, 0.1);
+		transform: translate(-50%, 10px);
+		li {
+			margin: 0 10px 10px 0;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			a {
+				font-size: $font-14;
+				color: $themeColor;
+			}
+		}
+	}
+}
+
+/****************************Buttons *********************************/
+
+.btn {
+	font-family: $ttnorms-regular;
+	font-size: $font-12;
+	line-height: 16px;
+	color: $white;
+	padding: 9px 21px;
+	border: 1px solid transparent;
+	border-radius: 19px;
+	text-align: center;
+	display: inline-block;
+	&:focus {
+		box-shadow: none;
+	}
+	img {
+		width: 20px;
+		margin-left: 10px;
+	}
+	&.btn-primary {
+		background-color: $themeColor;
+		color: $white;
+		border-color: $themeColor;
+	}
+}
+
+/****************************overlapping Properties *********************************/
+
+.mg-top-30 {
+	margin-top: 30px !important;
+}
+
+.mg-top-90 {
+	margin-top: 90px !important;
+}
+
+.mg-right-54 {
+	margin-right: 54px !important;
+}
+
+.jc-space-between {
+	justify-content: space-between !important;
+}

@@ -1,0 +1,37 @@
+@font-face {
+     font-family: "tt_normsregular";
+     src: url("../fonts/ttnorms-regular-webfont.woff2") format("woff2"),
+          url("../fonts/ttnorms-regular-webfont.woff") format("woff");
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: "tt_normsmedium";
+     src: url("../fonts/ttnorms-medium-webfont.woff2") format("woff2"),
+          url("../fonts/ttnorms-medium-webfont.woff") format("woff");
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: "tt_normsbold";
+     src: url("../fonts/ttnorms-bold-webfont.woff2") format("woff2"),
+          url("../fonts/ttnorms-bold-webfont.woff") format("woff");
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: "AvenirLTStd-Black";
+     src: url("../fonts/AvenirLTStdBlack.woff") format("woff"), url("./fonts/AvenirLTStdBlack.woff2") format("woff2");
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: "AvenirLTStd-Medium";
+     src: url("../fonts/AvenirLTStdMedium.woff") format("woff"), url("../fonts/AvenirLTStdMedium.woff2") format("woff2");
+     font-weight: normal;
+     font-style: normal;
+}
